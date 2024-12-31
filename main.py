@@ -10,11 +10,11 @@ def main():
 
     # setting constant size
     main_window.geometry(f"{WINDOW_SIZE["width"]}x{WINDOW_SIZE["height"]}")
-    main_window.resizable(False,False)
+    main_window.resizable(False, False)
 
     # init canvas
-    canvas = ColorWheel(main_window, WINDOW_SIZE["width"]-100, WINDOW_SIZE["height"]-200, 0.9)
-    canvas.initColorWheelInput()
+    color_wheel = ColorWheel(main_window, WINDOW_SIZE["width"] - 100, WINDOW_SIZE["height"] - 200, 0.9)
+    color_wheel.initColorWheelInput()
     
 
     main_window.mainloop()
