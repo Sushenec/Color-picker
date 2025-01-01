@@ -14,7 +14,6 @@ def main():
 
     # init canvas
     color_wheel = ColorWheel(main_window, WINDOW_SIZE["width"] - 100, WINDOW_SIZE["height"] - 200, 0.9)
-    color_wheel.initColorWheelInput()
     
 
     main_window.mainloop()
